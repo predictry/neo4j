@@ -28,7 +28,7 @@ COPY plugins /var/lib/neo4j/plugins
 COPY conf/neo4j /var/lib/neo4j/conf
 
 # Copy New Relic plugin
-COPY newrelic /var/lib/neo4j/newrelic
+# COPY newrelic /var/lib/neo4j/newrelic
 ADD auth /var/lib/neo4j/data/dbms/auth
 
 # Customize configurations
